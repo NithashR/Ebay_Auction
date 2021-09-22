@@ -74,7 +74,7 @@ public class A3 extends Thread
   public void run()
   {
       Connection conn1 = null;
-      String[] dbURL ={"", "jdbc:oracle:thin:hr/hr@localhost:1521:xe", "jdbc:oracle:thin:n4rajend/04192702@oracle.scs.ryerson.ca:1521:orcl"};
+      String[] dbURL ={"", "jdbc:oracle:thin:hr/hr@localhost:1521:xe", "********************"};  //replace ** extrernal database login info
       
       String nameToInsert = "Nithash";
   	  int num = 10;
